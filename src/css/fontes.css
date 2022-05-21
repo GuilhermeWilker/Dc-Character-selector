@@ -1,0 +1,12 @@
+/* FONTE DE TÍTULO */
+@font-face {
+    font-family: 'fight-kid';
+
+    src: url('../fontes/fight_kid/fightkid.ttf');
+}
+/* FONTE NOME DOS PERSONAGEM */
+@font-face {
+    font-family: 'pilot-command';
+
+    src: url('../fontes/pilot_command/pilotcommand1_2.ttf')
+}

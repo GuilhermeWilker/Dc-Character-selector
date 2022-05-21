@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Dc</title>
+    <link rel="shortcut icon" href="imagens/dc-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/src/css/variaveis.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/fontes.css">
+    <link rel="stylesheet" href="src/css/animacoes.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">Choose a fighter</h1>
+        </header>
+
+        <section class  ="selecao-de-personagens">
+            <!--DISPLAY JOGADOR 1-->
+            <div class="personagem-grande personagem-jogador-1">
+                <img src=".src/imagens/batman.png" alt="personagem selecionado jogador 1" id="personagem-jogador-1">
+                
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Batman</h2>
+                </div>
+            </div>
+            <!--LISTA DE SELEÇÃO DOS PERSONAGENS-->
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="batman" data-name="Batman">
+                    <span class="tag">1P</span>
+                    <img src="src/imagens/batman.jpg" alt="Personagem Batman">
+                </li>
+
+                <li class="personagem" id="super-homem" data-name="Super Homem">
+                    <span class="tag">1P</span>
+                    <img src="src/imagens/super-homem.jpg" alt="Personagem Super Homem">
+                </li>
+
+                <li class="personagem" id="mulher-maravilha" data-name="Mulher Maravilha">
+                    <span class="tag">1P</span>
+                    <img src="src/imagens/mulher-maravilha.jpg" alt="Personagem Mulher Maravilha">
+                </li>
+
+                <li class="personagem" id="flash" data-name="Flash">
+                    <span class="tag">1P</span>
+                    <img src="src/imagens/flash.jpg" alt="Personagem Flash">
+                </li>
+
+                <li class="personagem" id="mulher-gato" data-name="Mulher Gato">
+                    <span class="tag">1P</span>
+                    <img src="src/imagens/mulher-gato.jpg" alt="Personagem Mulher Gato">
+                </li>
+
+                <li class="personagem" id="lex-luthor" data-name="Lex Luthor">
+                    <span class="tag">1P</span>
+                    <img src="src/imagens/lex-luthor.jpg" alt="Personagem Lex Luthor">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="bane" data-name="Bane">
+                    <span class="tag">2P</span>
+                    <img src="src/imagens/bane.jpg" alt="Personagem Bane">
+                </li>
+
+                <li class="personagem" id="charada" data-name="Charada">
+                    <span class="tag">1P</span>
+                    <img src="src/imagens/charada.jpg" alt="Personagem Charada">
+                </li>
+
+                <li class="personagem" id="darkseid" data-name="Darkseid">
+                    <span class="tag">1P</span>
+                    <img src="src/imagens/darkseid.jpg" alt="Personagem Darkseid">
+                </li>    
+            </ul>
+            <!--DISPLAY JOGADOR 2-->
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="src/imagens/bane.png" alt="personagem selecionado jogador 2" id="personagem-jogador-2">
+                
+                <div class="nome">
+                    <h2>bane</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
