@@ -5,7 +5,7 @@ body {
 
 body::before {
     content: '';
-    background-image: url("./imagens/background.gif");
+    background-image: url("./src/imagens/background.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
